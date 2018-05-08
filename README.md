@@ -47,12 +47,12 @@ Arguments:
 #### Generate a whole video for test 
 ```
 e.g
-./video_tmp.py --input sample.mp4  --output test.avi --fps 30 --model ./model/100 
+./video.py --input sample.mp4  --output test.avi --fps 30 --model ./model/100 
 ```
 #### Generate seperate videos of each brand and a html file including all the details
 ```
 e.g.
-./video_tmp.py --input sample.mp4  --output test_pkl.avi --fps 30 --model ./model/100 --record tmp.pkl 
+./video.py --input sample.mp4  --output test_pkl.avi --fps 30 --model ./model/100 --record tmp.pkl 
 ```
 Arguments:
 ```
