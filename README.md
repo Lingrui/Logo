@@ -1,5 +1,5 @@
 # Logo
-A deep learning architecture for brand log classification    
+A deep learning architecture for brand logo classification    
 ## Requirements
 * Python   
 * Tensorflow 

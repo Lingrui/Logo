@@ -282,7 +282,7 @@ def main(_):
         j = 0 
         for html in html_i:
             start, duration , _ , _ = html
-            os.system('ffmpeg -ss %s -i video.mp4 -t %s %s.mp4' % (start, duration, str(j) ))
+            os.system('ffmpeg -ss %s -i video.mp4 -t %s %s.mp4' % (frame2second(start), frame2second(duration), str(j) ))
             os.system('sleep 10')
             j += 1
     pass
