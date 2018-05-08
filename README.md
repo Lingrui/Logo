@@ -20,7 +20,7 @@ Arguments:
 ## Annotate training data
 Annotate training date by category (Picpac - polygon) and export to db.    
 Then merge them into one database all.db  
-```Python
+```
 ./merge.py
 ```
 
@@ -30,7 +30,7 @@ Trainer of images classification.
 Requirs a symbolic link from Tensorflow official [Models](https://github.com/tensorflow/models) to working directory.
 ```
 e.g.
-../train-slim-fcn-board.py --db db/all --model model --classes 7 --nocache --batch 7 \
+./train-slim-fcn-board.py --db db/all --model model --classes 7 --nocache --batch 7 \
 --ckpt_epochs 5  --aaalgo --backbone tiny --noreg
 ```
 Arguments:
